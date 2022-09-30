@@ -58,21 +58,21 @@ In addition to the visual representation, you must also set on-tap handlers for 
 
 Here is what the app must contain:
 
-1. The main color (for the theme) must be `Colors.red`.
-2. You need to remove the label saying "Debug" on the top-right corner.
-3. You need an `AppBar` with the text "Profile picture", with font size 24px.
-4. The app bar must be "elevated above the background" - 10px high.
-5. The background for the main app-region has the color `Grey[200]`.
+1. The main color (for the theme) must be `Colors.red`. X
+2. You need to remove the label saying "Debug" on the top-right corner. X
+3. You need an `AppBar` with the text "Profile picture", with font size 24px. X
+4. The app bar must be "elevated above the background" - 10px high. X
+5. The background for the main app-region has the color `Grey[200]`. X
 6. There must be a "Sign out" action in the app bar, an `IconButton` with the `Icons.logout` as the
-   icon, size: 32px.
+   icon, size: 32px. X
     1. When it is pressed, call the `_signOut` method. This will be tested in another unit-test, the
-       golden-image does not check this part.
-7. An image and a button, centered vertically:
-    1. The image file is located the folder `images`
-    2. The button has the text "Change profile picture"
-    3. Both the image and button have 50px padding on the sides.
-    4. When the button is pressed, the `_changePicture` method must be called
-8. On the bottom right there must be a floating action button with the `Icons.help_outline` icon,
+       golden-image does not check this part. X
+7. An image and a button, centered vertically: 
+    1. The image file is located the folder `images` X
+    2. The button has the text "Change profile picture" X
+8. Both the image and button have 50px padding on the sides.
+    1. When the button is pressed, the `_changePicture` method must be called
+9. On the bottom right there must be a floating action button with the `Icons.help_outline` icon,
    size: 44px.
     1. When this button is clicked, `_showHelp` method must be called.
 
