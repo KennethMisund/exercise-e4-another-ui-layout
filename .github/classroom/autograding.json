@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Matching the golden image",
+      "setup": "",
+      "run": "flutter test test/screenshot-tests/homescreen_test.dart",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 85
+    },
+    {
+      "name": "Tap on sign-out",
+      "setup": "",
+      "run": "flutter test --name='Tap on sign-out'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Tap on picture change",
+      "setup": "",
+      "run": "flutter test --name='Tap on picture change'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Tap on help",
+      "setup": "",
+      "run": "flutter test --name='Tap on help'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
